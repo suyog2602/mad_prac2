@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <!-- Phone Number Input -->
+    <EditText
+        android:id="@+id/phoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone Number"
+        android:inputType="phone"
+        android:padding="10dp"
+        android:background="@android:drawable/edit_text" />
+
+    <!-- SMS Message Input -->
+    <EditText
+        android:id="@+id/smsMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="SMS Message"
+        android:inputType="textMultiLine"
+        android:padding="10dp"
+        android:background="@android:drawable/edit_text"
+        android:layout_below="@id/phoneNumber"
+        android:layout_marginTop="10dp" />
+
+    <!-- Send SMS Button -->
+    <Button
+        android:id="@+id/sendSmsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/smsMessage"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="45dp"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:padding="10dp"
+        android:text="Send SMS"
+        android:textColor="@android:color/white" />
+
+    <!-- Send SMS Button -->
+    <Button
+        android:id="@+id/nextpract"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/smsMessage"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="175dp"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:padding="10dp"
+        android:text="Next practical"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

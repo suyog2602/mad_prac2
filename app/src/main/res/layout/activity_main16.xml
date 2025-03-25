@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/src"
+        android:layout_width="399dp"
+        android:layout_height="66dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="177dp"
+        android:layout_marginEnd="0dp"
+        android:hint="Enter the src" />
+
+    <EditText
+        android:id="@+id/dest"
+        android:layout_width="381dp"
+        android:layout_height="61dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="248dp"
+        android:hint="Enter the dest" />
+
+    <Button
+        android:id="@+id/btnShowRoute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Route"
+        android:layout_centerInParent="true"/>
+
+
+    <Button
+        android:id="@+id/next_pract"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="142dp"
+        android:layout_marginBottom="271dp"
+        android:text="NExt practical" />
+</RelativeLayout>
